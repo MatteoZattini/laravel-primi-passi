@@ -1,7 +1,8 @@
 <?php
 
+use App\Http\Controllers\altroController;
+use App\Http\Controllers\homeController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,8 +19,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/altro', function () {
-    return view('altro');
-});
+// Route::get('/altro', function () {
+//     return view('altro');
+// });
 
-Route::get('/home', 'homeController@home')->name('home');
+// Route::get('/home', function () {
+//     return view('home');
+// });
+
+Route::get('/home', [ homeController::class , 'index']);
+Route::get('/altro', [ altroController::class , 'index']);
