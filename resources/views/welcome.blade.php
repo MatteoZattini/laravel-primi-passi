@@ -9,6 +9,8 @@
 <body>
     <h1>Laravel</h1>
     <p>lets go</p>
+    <a href="/home">Home</a>
+    <a href="/altro">Altro</a>
     
 </body>
 </html>
