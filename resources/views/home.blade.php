@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Laravel</h1>
-    <p>lets go</p>
-    <!-- <a href="{{ route('home') }}">seconda pagina</a> -->
-    <a href="">seconda pagina</a>
+    <h1>altra pagina</h1>
 </body>
 </html>
