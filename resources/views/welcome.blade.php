@@ -1,3 +1,4 @@
+<?php use \app\Http\Controllers\homeController; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +9,7 @@
 <body>
     <h1>Laravel</h1>
     <p>lets go</p>
-    <!-- <a href="{{ route('home') }}">seconda pagina</a> -->
-    <a href="">seconda pagina</a>
+    <a href="{{ route('home') }}">seconda pagina</a>
+    
 </body>
 </html>

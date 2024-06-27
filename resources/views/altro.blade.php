@@ -1,4 +1,3 @@
-<?php use \app\Http\Controllers\homeController; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
